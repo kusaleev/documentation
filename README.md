@@ -10,13 +10,17 @@
 2. Описание каждого документа в проекте, шаблоны.
 3. Вложенные сниппеты для работы с диаграммами.
 
-## Требования по работе с проектом
+## Список ПО и технологий, который используется в проекте
 
 Для полноценной работы с проектом требуется установить следующее ПО:
 
-1. git
-2. asciidoc
-3. plantuml
-4. vscode
+1. [git/](https://git-scm.com/)
+2. [Asciidoctor](https://github.com/asciidoctor/asciidoctor)
+3. [PlantUML](https://plantuml.com/)
+4. [Visual Studio Code](https://code.visualstudio.com/)
+
+## Ограничения и допущения
+
+1. Файлы сниппетов приведены для ПО [Visual Studio Code](https://code.visualstudio.com/). Для использования на других платформах (intellij idea, например) нужно произвести адаптацию данных сниппетов.
 
 
