@@ -5,15 +5,23 @@
 :toc-title: Оглавление
 :toc: 
 
-Струкрутра репозитория имеет следующий вид
+Струкрутра репозитория имеет следующий вид ()
 
 [source,markdown]
 ----
-src 
-    docs
-        asciidoc
-            examples
-                REST
-                SOAP
-    index.adoc
+  src
+    └── docs
+        ├── asciidoc
+        │   ├── examples
+        │   │   ├── REST
+        │   │   │   └── method-1
+        │   │   │       ├── method-1-request.adoc
+        │   │   │       └── method-1-response.adoc
+        │   │   └── SOAP
+        │   │       └── external-SOAP-service
+        │   │           ├── external-SOAP-service-request.adoc
+        │   │           └── external-SOAP-service-response.adoc
+        │   ├── method-1.adoc
+        │   └── method-2.adoc
+        └── index.adoc
 ----
