@@ -1,0 +1,6 @@
+= Файл-индекс, описывающий 
+:author: Kirill Saleev
+:email: k.u.saleev@yandex.ru
+:sectnums:
+:toc-title: Оглавление
+:toc: 
