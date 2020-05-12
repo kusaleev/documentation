@@ -1,6 +1,19 @@
-= Файл-индексй 
+= Структура репозитория
 :author: Kirill Saleev
 :email: k.u.saleev@yandex.ru
 :sectnums:
 :toc-title: Оглавление
 :toc: 
+
+Струкрутра репозитория имеет следующий вид
+
+[source,markdown]
+----
+src 
+    docs
+        asciidoc
+            examples
+                REST
+                SOAP
+    index.adoc
+----
