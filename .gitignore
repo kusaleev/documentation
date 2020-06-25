@@ -1,0 +1,7 @@
+#folders
+.idea
+.vscode
+
+#files
+*.png
+*.jpeg
