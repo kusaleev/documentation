@@ -1,0 +1,47 @@
+= Структура репозитория
+:author: Kirill Saleev
+:email: k.u.saleev@yandex.ru
+:sectnums:
+:toc-title: Оглавление
+:toc: 
+
+toc::[]
+
+[#struct]
+== Струкрутра репозитория имеет следующий вид:
+
+[source,markdown]
+----
+├── LICENSE
+├── README.md
+├── repository-structure.adoc
+├── snippets
+│   └── asciidoc.code-snippets
+├── src
+│   └── docs
+│       ├── a.adoc
+│       ├── asciidoc
+│       │   ├── examples
+│       │   │   ├── REST
+│       │   │   │   └── method-1
+│       │   │   │       ├── method-1-request.adoc
+│       │   │   │       └── method-1-response.adoc
+│       │   │   └── SOAP
+│       │   │       └── external-SOAP-service
+│       │   │           ├── external-SOAP-service-request.adoc
+│       │   │           └── external-SOAP-service-response.adoc
+│       │   ├── method-1.adoc
+│       │   └── method-2.adoc
+│       └── index.adoc
+└── versions.md
+----
+
+[#define]
+== Коммертарии к структуре документа
+
+[qanda]
+Почему документ к проекту вложен в структуру `src` ? :: src - корневая директория предполагаемого к разработке сервиса. Поэтому директория с документацией должна находиться на -1 уровень ниже.
+
+Почему index.adoc выше уровнем, чем остальные документы? :: Описание назначения файла index.adoc приведено в этом link:./src/docs/index.adoc[документе].
+
+Зачем нужна директория `examples`? :: Данная директория служит для единой точки хранения всех примеров запросов и ответов, которые нужны для сервиса. Так же, все примеры запросов и ответов - унифицированы по структуре и оформлению.
