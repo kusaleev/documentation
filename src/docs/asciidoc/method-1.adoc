@@ -44,7 +44,7 @@ include::.puml[]
 
 Раздел, в котором приведено полное описание входных параметров метода.
 
-include::{examples-dir-rest}{}{methon-name-include}-request.adoc[]
+include::{examples-dir-rest}{methon-name-include}-request.adoc[]
 
 [#-response]
 === Выходные параметры
